@@ -5,7 +5,8 @@ import {
     unsubscribe,
     APPLICATION_SCOPE,
     MessageContext,
-} from 'lightning/messageService';
+} 
+from 'lightning/messageService';
 import MOVIE_CHANNEL from "@salesforce/messageChannel/movieChannel__c";
 export default class MovieDetail extends LightningElement {
     subscription = null;
